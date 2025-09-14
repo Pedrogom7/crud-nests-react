@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    /* Diretórios de entrada e saída */
+    "rootDir": "./src",
+    "outDir": "./dist",
+    /* Configuração de ambiente */
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext"
+    ],
+    "types": [
+      "node"
+    ],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    /* Geração de arquivos adicionais */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    /* Checagens mais rígidas */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    /* Outras opções */
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": false,
+    "moduleDetection": "force"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
